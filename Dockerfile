@@ -1,4 +1,4 @@
-FROM vcatechnology/arch:latest
+FROM vcatechnology/arch-ci:latest
 MAINTAINER VCA Technology <developers@vcatechnology.com>
 
 # Build-time metadata as defined at http://label-schema.org
@@ -18,7 +18,7 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.schema-version="1.0"
 
 # Install packages
-RUN vca-install-package \
+RUN sudo vca-install-package \
   git \
   openssh \
   make \
@@ -36,4 +36,4 @@ RUN vca-install-package \
   npm
 
 # Install NPM packages
-RUN npm install -g markdownlint-cli
+RUN sudo npm install -g markdownlint-cli
