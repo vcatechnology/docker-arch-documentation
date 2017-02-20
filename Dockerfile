@@ -30,4 +30,8 @@ RUN vca-install-package \
   pandoc \
   python-pandocfilters \
   optipng \
-  zopfli
+  zopfli \
+  npm
+
+# Install NPM packages
+sudo npm install -g markdownlint-cli
