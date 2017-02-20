@@ -36,4 +36,4 @@ RUN vca-install-package \
   npm
 
 # Install NPM packages
-sudo npm install -g markdownlint-cli
+npm install -g markdownlint-cli
