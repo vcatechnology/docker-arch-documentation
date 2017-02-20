@@ -1,4 +1,4 @@
-# Arch Linux Docker BATS Image
+# Arch Linux Docker Documentation Image
 
 [![](https://images.microbadger.com/badges/image/vcatechnology/arch-documentation.svg)](http://microbadger.com/images/vcatechnology/arch-documentation "Image Layers") [![](https://images.microbadger.com/badges/version/vcatechnology/arch-documentation.svg)](http://microbadger.com/images/vcatechnology/arch-documentation "Image Version") [![](https://images.microbadger.com/badges/license/vcatechnology/arch-documentation.svg)](https://microbadger.com/images/vcatechnology/arch-documentation "Image License")  [![](https://images.microbadger.com/badges/commit/vcatechnology/arch-documentation.svg)](https://github.com/vcatechnology/docker-arch-documentation "Image Commit")
 
