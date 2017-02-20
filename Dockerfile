@@ -21,6 +21,7 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
 RUN vca-install-package \
   git \
   openssh \
+  make \
   rsync \
   tar \
   bzip2 \
