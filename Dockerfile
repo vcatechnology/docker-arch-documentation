@@ -31,6 +31,7 @@ RUN vca-install-package \
   python-pandocfilters \
   optipng \
   python-pylint \
+  yapf \
   zopfli \
   npm
 
