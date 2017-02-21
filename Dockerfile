@@ -34,6 +34,7 @@ RUN sudo vca-install-package \
   yapf \
   zopfli \
   jq \
+  texlive-most \
   npm
 
 # Install NPM packages
