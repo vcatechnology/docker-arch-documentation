@@ -33,6 +33,7 @@ RUN sudo vca-install-package \
   python-pylint \
   yapf \
   zopfli \
+  jq \
   npm
 
 # Install NPM packages
