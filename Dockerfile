@@ -29,6 +29,7 @@ RUN sudo vca-install-package \
   xz \
   pandoc \
   python-pandocfilters \
+  python-pypandoc \
   optipng \
   python-pylint \
   yapf \
