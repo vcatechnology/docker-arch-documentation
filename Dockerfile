@@ -39,4 +39,4 @@ RUN sudo vca-install-package \
   npm
 
 # Install NPM packages
-RUN sudo npm install -g markdownlint-cli
+RUN sudo npm install -g markdownlint-cli inquirer
