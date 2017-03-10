@@ -28,6 +28,7 @@ RUN sudo vca-install-package \
   gzip \
   xz \
   pandoc \
+  python-blessings \
   python-pandocfilters \
   python-pypandoc \
   python-pip \
