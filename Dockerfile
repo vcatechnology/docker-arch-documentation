@@ -35,6 +35,7 @@ RUN sudo vca-install-package \
   optipng \
   python-pylint \
   yapf \
+  jpegoptim \
   zopfli \
   jq \
   texlive-most \
