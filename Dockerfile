@@ -42,7 +42,7 @@ RUN sudo vca-install-package \
 
 # zopfli isn't in the main repositories anymore
 RUN sudo pacman --noprogressbar --noconfirm -U https://archive.archlinux.org/packages/z/zopfli/zopfli-1.0.1-1-x86_64.pkg.tar.xz \
-  && sudo pacman --noprogressbar --noconfirm -Scc /
+  && sudo pacman --noprogressbar --noconfirm -Scc \
   && sudo pacman-optimize --nocolor
 
 # Install NPM packages
